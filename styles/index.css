@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "Poppins", "Nunito", Arial, sans-serif;
-  color: #283752;
+  color: #eb0505;
   line-height: 1.4;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .main-nav a.active {
-  background: #f7f8f8;
+  background: #87ffff;
   color: #04202a;
 }
 
