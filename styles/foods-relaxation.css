@@ -1,0 +1,112 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Poppins", "Nunito", Arial, sans-serif;
+  background: linear-gradient(180deg, #dbeeff, #f0e9ff);
+  color: #24324a;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.site-header {
+  background: rgba(255,255,255,0.85);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.logo {
+  font-weight: 700;
+  color: #24324a;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.page-intro h1 {
+  margin: 6px 0;
+  font-size: 1.6rem;
+}
+.page-intro .lead {
+  color: #6b7482;
+  margin-top: 6px;
+  margin-bottom: 14px;
+}
+
+.food-list,
+.avoid-list,
+.snack-idea,
+.tips,
+.exercise,
+.pmr,
+.stretches,
+.music-suggestions,
+.quick-tips {
+  background: #fff;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(0,0,0,0.04);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.04);
+}
+
+.food-list ul,
+.avoid-list ul,
+.tips ul,
+.quick-tips ul {
+  padding-left: 1.1rem;
+  color: #6b7482;
+  margin: 0;
+}
+
+.food-list strong,
+.avoid-list strong {
+  color: #0b2b3a;
+}
+
+.snack-idea p,
+.music-suggestions p {
+  margin: 0;
+  color: #486075;
+}
+
+.site-footer {
+  text-align: center;
+  margin-top: 24px;
+  padding: 12px 0;
+  color: #6b7482;
+}
+.site-footer .quote {
+  font-style: italic;
+  color: #24324a;
+  margin-bottom: 6px;
+}
+.site-footer .small {
+  font-size: 0.9rem;
+  color: #6b7482;
+}
+
+a {
+  color: #0b4f73;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+@media (max-width: 720px) {
+  .container { padding: 12px; }
+  .page-intro h1 { font-size: 1.3rem; }
+  .header-inner { padding: 8px 12px; }
+}
+
+a:focus {
+  outline: 3px solid #d3eaff;
+  outline-offset: 3px
+}

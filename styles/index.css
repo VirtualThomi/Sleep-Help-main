@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", "Nunito", Arial, sans-serif;
+  color: #27354e;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.site-header {
+  background: #ffffffcc;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+.logo {
+  font-weight: 700;
+  text-decoration: none;
+  color: #24324a;
+  font-size: 18px;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #24324a;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.main-nav a.active {
+  background: #7aa7ff;
+  color: #04202a;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 1.15rem;
+  margin: 8px 0;
+  color: #24324a;
+}
+
+h3{
+  font-size: 1.35rem;
+  margin-bottom: -10px;
+}
+
+.lead {
+  color: #6b7482;
+  margin-bottom: 14px;
+}
+
+.routine,
+.exercise,
+.food-list,
+.sleep-timer,
+.quick-tips {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 18px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.04);
+}
+
+.routine ol,
+.routine ul,
+.food-list ul,
+.quick-tips ul {
+  padding-left: 1.1rem;
+  margin: 0;
+  color: #6b7482;
+}
+
+.site-footer {
+  text-align: center;
+  margin-top: 28px;
+  color: #6b7482;
+  padding: 12px 0;
+}
+
+.site-footer .quote {
+  font-style: italic;
+  color: #24324a;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 720px) {
+  .header-inner {
+    padding: 10px;
+  }
+  .container {
+    padding: 12px;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+}
+
+a:focus {
+  outline: 3px solid #d3eaff;
+  outline-offset: 3px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", "Nunito", Arial, sans-serif;
+  background: linear-gradient(180deg, #dbeeff, #f0e9ff);
+  color: #24324a;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.site-header {
+  background: #ffffffcc;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+.logo {
+  font-weight: 700;
+  text-decoration: none;
+  color: #24324a;
+  font-size: 18px;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #24324a;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.main-nav a.active {
+  background: #7aa7ff;
+  color: #04202a;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 8px 0;
+  color: #24324a;
+}
+
+.lead {
+  color: #6b7482;
+  margin-bottom: 14px;
+}
+
+.routine,
+.exercise,
+.food-list,
+.sleep-timer,
+.quick-tips {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 18px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.04);
+}
+
+.routine ol,
+.routine ul,
+.food-list ul,
+.quick-tips ul {
+  padding-left: 1.1rem;
+  margin: 0;
+  color: #6b7482;
+}
+
+.site-footer {
+  text-align: center;
+  margin-top: 28px;
+  color: #6b7482;
+  padding: 12px 0;
+}
+
+.site-footer .quote {
+  font-style: italic;
+  color: #24324a;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 720px) {
+  .header-inner {
+    padding: 10px;
+  }
+  .container {
+    padding: 12px;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+}
+
+a:focus {
+  outline: 3px solid #d3eaff;
+  outline-offset: 3px;
+}
+ /*
